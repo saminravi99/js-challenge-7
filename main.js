@@ -25,7 +25,7 @@ console.log("Today's Temperature is " + yourTempCelsius + " Degree Celsius");
 
 // Grade System 
 function gradeSystem(score){
-    if (score < 33){
+    if (score >= 0 && score < 33){
     console.log ( "Your Grade : F ")
     console.log("You Have failed")
 }
@@ -54,7 +54,7 @@ else{
 }
 }
 
-let yourMarks = 60 ;
+let yourMarks = -120 ;
 gradeSystem(yourMarks);
 
 
